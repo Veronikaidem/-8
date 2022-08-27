@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../image/bg.png);
+    background-size: cover;
+}
+
+h2{
+    width: 750px;
+    background-color: #000;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 30px;
+    border-radius:20px;
+    text-align: center;
+    margin: 30px;
+    margin-left: 602px;
+}
+
+form{
+    width: 750px;
+    margin-left: 602px;
+   
+
+}
+
+form input{
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(158, 149, 149, 0.7);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+form input::placeholder{
+    color: #000;
+}
+form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    /* padding: 20px;
+     */
+
+}
+form textarea{
+    width: 100%;
+    background-color: rgba(158, 149, 149, 0.3);
+    color: #000;
+    outline: none;
+    padding: 15px;
+    resize:none;
+    border-bottom: 1px solid #fff;
+    border-radius: 20px;
+}
+form textarea::placeholder{
+    color: #000;
+}
+.card p{text-align: left;
+color: #000;}
+
+.card{
+    padding: 30px;
+    
+}
+
+.card input, .cash input{
+    width: 10%;
+
+}
+.card label, .cash label{
+   display:inline;
+   font-size: 20px;
+   
+}
+
+/* input[type=checkbox]{
+    width: 40px;
+    height: 40px;
+    accent-color: red;
+    outline: none;
+} */
+
+
+
+
+form input[type="submit"]{
+    width: 750px;
+    /* clear: both; */
+    background-color: green;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    
+}
+
+.hello{
+    width: 700px;
+    background-color: #000;
+    margin-left: 638px;
+    border-radius: 20px;
+}
+.hello  h3, h4, p{
+    color: #fff;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* -------------------next page--------------- */
+
+.meore{
+    width: 750px;
+    background-color: rgb(192, 192, 37);
+    border-radius: 20px;
+    border-bottom: 1px solid #000;
+    margin: 300px 200px;
+    margin-left: 638px;
+}
+
+.meore .yellow{
+    color: #000;
+}
+  /* ----------checkbox design---------- */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(158, 149, 149, 0.3);
+    
+  }
+  
+  /* On mouse-over, add a grey background color
+  .container:hover input ~ .checkmark {
+    background-color: #FA9E57;
+  } */
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: rgba(158, 149, 149, 0.3);
+  }
+  
+
+   .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+ 
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  } 
