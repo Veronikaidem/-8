@@ -160,12 +160,7 @@ form input[type="submit"]{
     
   }
   
-  /* On mouse-over, add a grey background color
-  .container:hover input ~ .checkmark {
-    background-color: #FA9E57;
-  } */
-  
-  /* When the checkbox is checked, add a blue background */
+ 
   .container input:checked ~ .checkmark {
     background-color: rgba(158, 149, 149, 0.3);
   }
